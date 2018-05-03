@@ -1,0 +1,12 @@
+network:
+  192_168_122_0-255_255_255_0:
+    basic_attr:
+      gateway: <xcatmaster>
+      mask: 255.255.255.0
+      mgtifname: virbr0
+      mtu: '1500'
+      net: 192.168.122.0
+    service:
+      tftpserver: <xcatmaster>
+schema_version: '1.0'
+

@@ -1,0 +1,20 @@
+osimage:
+  rhels7.4-x86_64-netboot-compute:
+    basic_attributes:
+      arch: x86_64
+      distribution: rhels7.4
+      osdistro: rhels7.4-x86_64
+    genimgoptions:
+      exlist: /opt/inventory/site/osimage/rhels7.4-x86_64-netboot-compute/compute.rhels7.x86_64.exlist
+      postinstall: /opt/inventory/site/osimage/rhels7.4-x86_64-netboot-compute/compute.rhels7.x86_64.postinstall
+      rootimgdir: /install/netboot/rhels7.4/x86_64/compute
+    imagetype: linux
+    package_selection:
+      otherpkgdir: /install/post/otherpkgs/rhels7.4/x86_64
+      otherpkglist: /opt/inventory/site/osimage/rhels7.4-x86_64-netboot-compute/compute.rhels7.x86_64.otherpkglist
+      pkgdir: /install/rhels7.4/x86_64
+      pkglist: /opt/inventory/site/osimage/rhels7.4-x86_64-netboot-compute/compute.rhels7.x86_64.pkglist
+    provision_mode: netboot
+    role: compute
+schema_version: '1.0'
+

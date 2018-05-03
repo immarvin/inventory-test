@@ -1,0 +1,12 @@
+network:
+  192_168_11_0-255_255_255_0:
+    basic_attr:
+      gateway: <xcatmaster>
+      mask: 255.255.255.0
+      mgtifname: eth0.2
+      mtu: '1500'
+      net: 192.168.11.0
+    service:
+      tftpserver: <xcatmaster>
+schema_version: '1.0'
+
