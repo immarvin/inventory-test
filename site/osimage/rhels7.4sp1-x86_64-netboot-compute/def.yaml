@@ -16,5 +16,8 @@ osimage:
       pkglist: /opt/inventory/site/osimage/rhels7.4sp1-x86_64-netboot-compute/compute.rhels7.x86_64.pkglist
     provision_mode: netboot
     role: compute
+    scripts:
+      postbootscripts: config_cuda
+      postscripts: confignetwork
 schema_version: '1.0'
 
